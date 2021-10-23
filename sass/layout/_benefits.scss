@@ -1,0 +1,37 @@
+.benefits-box {
+  height: 120px;
+  background-color: var(--team-background-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.benefits-icon {
+  width: 70px;
+  height: 70px;
+}
+
+.benefits {
+  padding-bottom: 47px;
+  --card-set-item: 4;
+}
+
+.benefits-title {
+  margin-bottom: 10px;
+
+  font-weight: bold;
+  line-height: 1.2;
+  text-transform: uppercase;
+  color: var(--secondaty-title-color);
+}
+
+.benefits-text {
+  max-width: 270px;
+
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  color: var(--secondaty-text-color);
+}

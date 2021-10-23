@@ -1,1 +1,23 @@
-@import "/sass/layout/header";
+@import "./utils/vars";
+@import "./utils/hiden";
+@import "./utils/hiden";
+
+@import "./base/reset";
+@import "./base/common";
+
+@import "./components/container";
+@import "./components/flex";
+@import "./components/modal";
+@import "./components/name-block";
+@import "./components/social-list";
+@import "./components/filter-btn";
+
+@import "./layout/logo";
+@import "./layout/header";
+@import "./layout/hero";
+@import "./layout/footer";
+@import "./layout/benefits";
+@import "./layout/activity";
+@import "./layout/team";
+@import "./layout/partner";
+@import "./layout/portfolio-card";
