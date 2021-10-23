@@ -12,17 +12,17 @@
 
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
     visibility 150ms cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-.backdrop.is-hidden {
-  opacity: 0;
-  visibility: hidden;
-  pointer-events: none;
-}
+  &.is-hidden {
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
 
-.backdrop.is-hidden .modal {
-  opacity: 0;
-  transform: scale(0);
+    & .modal {
+      opacity: 0;
+      transform: scale(0);
+    }
+  }
 }
 
 .modal {
@@ -52,6 +52,11 @@
   display: flex;
   align-items: center;
   justify-content: center;
+
+  &:hover,
+  &:focus {
+    fill: var(--cursor-text-color);
+  }
 }
 
 .hero-btn.modal-btn {
@@ -61,11 +66,6 @@
 .svg-btn {
   width: 18px;
   height: 18px;
-}
-
-.close-btn:hover,
-.close-btn:focus {
-  fill: var(--cursor-text-color);
 }
 
 .modal-title {
@@ -103,11 +103,11 @@
   padding-left: 42px;
   padding-right: 20px;
   outline: none;
-}
 
-.modal-input:focus,
-.modal-input:hover {
-  border-color: var(--cursor-text-color);
+  &:focus,
+  &:hover {
+    border-color: var(--cursor-text-color);
+  }
 }
 
 .modal-input:focus + .input-icon {
@@ -135,10 +135,15 @@
 
   resize: none;
   color: var(--secondaty-text-color);
-}
 
-.modal-comments::placeholder {
-  color: var(--secondaty-text-color);
+  &:focus,
+  &:hover {
+    border-color: var(--cursor-text-color);
+  }
+
+  &::placeholder {
+    color: var(--secondaty-text-color);
+  }
 }
 
 .input-wrapper {
@@ -153,11 +158,6 @@
   left: 12px;
   top: 50%;
   transform: translateY(-50%);
-}
-
-.modal-comments:focus,
-.modal-comments:hover {
-  border-color: var(--cursor-text-color);
 }
 
 .chek-text {
@@ -191,9 +191,15 @@
   border: none;
 }
 
-.chekbox:focus,
-.chekbox:hover {
-  fill: var(--cursor-text-color);
+.chekbox {
+  &:focus,
+  &:hover {
+    fill: var(--cursor-text-color);
+  }
+  & .visual-hidden:focus,
+  & .visual-hidden:hover {
+    border-color: var(--cursor-text-color);
+  }
 }
 
 .conditions-text {
@@ -209,9 +215,4 @@
 .chek-icon {
   width: 15px;
   height: 16px;
-}
-
-.chekbox .visual-hidden:focus,
-.chekbox .visual-hidden:hover {
-  border-color: var(--cursor-text-color);
 }
