@@ -9,16 +9,16 @@
   }
 }
 
-.page-footer-item:not(:last-child) {
+.page-footer__item:not(:last-child) {
   margin-right: 70px;
 }
 
-.footer-address {
+.page-footer__address {
   margin-top: 20px;
   font-style: normal;
 }
 
-.footer-address-map-link {
+.page-footer__address-map-link {
   margin-bottom: 9px;
 
   font-weight: normal;
@@ -32,7 +32,7 @@
   }
 }
 
-.footer-address-link {
+.page-footer__address-link {
   margin-bottom: 20px;
 
   font-weight: normal;
@@ -46,11 +46,11 @@
   }
 }
 
-.communication {
+.page-footer__communication {
   margin-left: 70px;
 }
 
-.communication-title {
+.page-footer__communication-title {
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.03em;
