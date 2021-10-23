@@ -29,9 +29,6 @@
 .benefits-text {
   max-width: 270px;
 
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 1.7;
-  letter-spacing: 0.03em;
+  @include font(normal, 14px, 1.7, 0.03em);
   color: var(--secondaty-text-color);
 }

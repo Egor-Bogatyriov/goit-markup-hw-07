@@ -21,10 +21,7 @@
 }
 
 .examples-tittle {
-  font-weight: bold;
-  font-size: 18px;
-  line-height: 2;
-  letter-spacing: 0.06em;
+  @include font(bold, 18px, 2, 0.06em);
   color: var(--secondaty-title-color);
   margin-bottom: 4px;
 }

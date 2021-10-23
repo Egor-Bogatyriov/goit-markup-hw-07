@@ -164,8 +164,8 @@ body {
   font-weight: bold;
   font-size: 20px;
   line-height: 23px;
-  text-align: center;
   letter-spacing: 0.03em;
+  text-align: center;
   color: var(--secondaty-title-color);
   display: block;
   margin-bottom: 12px;
@@ -530,8 +530,8 @@ body {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.37;
-  text-align: center;
   letter-spacing: 0.06em;
+  text-align: center;
   text-transform: uppercase;
   color: var(--primary-title-color);
 }
