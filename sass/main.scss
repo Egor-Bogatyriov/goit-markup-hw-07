@@ -1,6 +1,5 @@
 @import "./utils/vars";
 @import "./utils/hiden";
-@import "./utils/hiden";
 @import "./utils/mixins";
 
 @import "./base/reset";
@@ -9,11 +8,10 @@
 @import "./components/container";
 @import "./components/flex";
 @import "./components/modal";
-@import "./components/name-block";
 @import "./components/social-list";
 @import "./components/filter-btn";
+@import "./components/logo";
 
-@import "./layout/logo";
 @import "./layout/header";
 @import "./layout/hero";
 @import "./layout/footer";
